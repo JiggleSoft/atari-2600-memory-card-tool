@@ -12,11 +12,12 @@ The aim of this project is to provide the cheapest and simplest complete managem
 
 ### Project Index
 
-| Location | Description                                                                |
-|----------|----------------------------------------------------------------------------|
-| hardware | USB interface's hardware design and implementation: Schematic, PCB, Notes. |
-| firmware | USB interface's firmware source code.                                      |
-| software | Memory Card management tool software for Linux and Windows.                |
+| Location                  | Description                                                                |
+|---------------------------|----------------------------------------------------------------------------|
+| memory-card-tool/hardware | USB interface's hardware design and implementation: Schematic, PCB, Notes. |
+| memory-card-tool/firmware | USB interface's firmware source code.                                      |
+| memory-card-tool/software | Memory Card management tool software for Linux and Windows.                |
+| savekey-plus-test-device  | SaveKey+ test device's hardware design and implementation: Schematic, PCB (stripboard), Notes. |
 
 *Note: that this repository will only be updated with content as specific milestones are reached.*
 *The development is in progress and currently housed in a separate private repository.*
@@ -24,13 +25,19 @@ The aim of this project is to provide the cheapest and simplest complete managem
 
 ### Hardware
 
-![USB Interface Schematic](hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-schematic.pdf "USB Interface Schematic")
+![USB Interface Schematic](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-schematic.pdf "USB Interface Schematic")
 
-![USB Interface PCB Diagram](hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb.pdf "USB Interface PCB Diagram")
+![USB Interface PCB Diagram](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb.pdf "USB Interface PCB Diagram")
 
-![USB Interface PCB Front](hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-front.png "USB Interface PCB Front")
+![USB Interface PCB Front](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-front.png "USB Interface PCB Front")
 
-![USB Interface PCB Rear](hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-back.png "USB Interface PCB Back")
+![USB Interface PCB Rear](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-back.png "USB Interface PCB Back")
+
+![USB Interface Stripboard Development/DIY PCB Diagram](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard.pdf "USB Interface Stripboard Development/DIY PCB Diagram")
+
+![USB Interface Stripboard Development/DIY PCB Front](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard-front.png "USB Interface Stripboard Development/DIY PCB Front")
+
+![USB Interface Stripboard Development/DIY PCB Rear](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard-back.png "USB Interface Stripboard Development/DIY PCB Back")
 
 
 ### Licensing
