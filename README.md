@@ -10,6 +10,13 @@ This repository contains the design and implementation details of a USB interfac
 The aim of this project is to provide the cheapest and simplest complete management solution for Atari 2600/7800 memory cards (SaveKey) devices.
 
 
+### Status
+
+I am currently awaiting delivery of Microchip PIC MCU and Microchip Serial EEPROM integrated circuits, but there is a long lead time.
+In the meantime work will proceed on soldering a USB Interface Tool development stripboard PCB and a savekey plus test device stripboard PCB.
+Then software development will continue.
+
+
 ### Project Index
 
 | Location                  | Description                                                                |
@@ -37,12 +44,23 @@ The aim of this project is to provide the cheapest and simplest complete managem
 
 ![USB Interface Stripboard Development/DIY PCB Front](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard-front.png "USB Interface Stripboard Development/DIY PCB Front")
 
-![USB Interface Stripboard Development/DIY PCB Rear](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard-back.png "USB Interface Stripboard Development/DIY PCB Back")
+![USB Interface Stripboard Development/DIY PCB Back](memory-card-tool/hardware/kicad/memory-card-usb-interface/memory-card-usb-interface-pcb-stripboard-back.png "USB Interface Stripboard Development/DIY PCB Back")
 
 
 ### Software
 
 ![USB Interface Tool Screenshot](memory-card-tool/software/memory-card-usb-interface-tool/screenshot-1.png "USB Interface Tool Screenshot")
+
+
+### SaveKey Plus Test Device
+
+[SaveKey Plus Test Device Schematic](savekey-plus-test-device/hardware/kicad/savekey-plus-test-device/savekey-plus-test-device-schematic.pdf "SaveKey Plus Test Device Schematic")
+
+![SaveKey Plus Test Device Stripboard PCB Diagram](savekey-plus-test-device/hardware/kicad/savekey-plus-test-device/savekey-plus-test-device-pcb-stripboard.pdf "SaveKey Plus Test Device Stripboard PCB Diagram")
+
+![SaveKey Plus Test Device Stripboard PCB Front](savekey-plus-test-device/hardware/kicad/savekey-plus-test-device/savekey-plus-test-device-pcb-stripboard-front.png "SaveKey Plus Test Device Stripboard PCB Front")
+
+![SaveKey Plus Test Device Stripboard PCB Back](savekey-plus-test-device/hardware/kicad/savekey-plus-test-device/savekey-plus-test-device-pcb-stripboard-back.png "SaveKey Plus Test Device Stripboard PCB Back")
 
 
 ### Licensing
